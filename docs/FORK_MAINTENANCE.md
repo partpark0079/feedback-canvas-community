@@ -49,7 +49,7 @@ git config push.default current
 
 | 分支 | 起点 | 目的 | 状态 | PR |
 |---|---|---|---|---|
-| `docs/fork-maintenance-handoff` | `upstream/main@90e16a8`（v0.6.6） | 建立 Fork 维护流程与交接记录，记录 Python 3.13 环境基准 | 已推送，待上游决定 | 见 PR 列表 |
+| `docs/fork-maintenance-handoff` | `upstream/main@90e16a8`（v0.6.6） | 建立 Fork 维护流程与交接记录，记录 Python 3.13 环境基准 | 已推送待审 | [上游 #1](https://github.com/zzwzhangzhiwei123/feedback-canvas-community/pull/1) |
 
 状态取值：开发中 / 已推送待审 / 上游已合并 / 上游未采纳（仅 Fork 使用）/ 已废弃。
 

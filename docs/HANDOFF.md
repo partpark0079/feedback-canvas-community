@@ -48,7 +48,7 @@ README、CONTRIBUTING、AGENTS、架构/测试/维护者文档、PR 模板及 Wi
 ### 2026-11-18 · Fork 维护接入与环境基准（@partpark0079）
 
 - **目标**：@partpark0079 接手在下游 Fork 持续维护本工具；建立 Fork / 上游同步 / 功能分支 / PR 的固定流程和交接记录，并在本机建立测试基准。功能代码未改动。
-- **分支 / 提交**：起点 `upstream/main@90e16a8`（v0.6.6）→ Fork 分支 `docs/fork-maintenance-handoff`；PR 指向上游 `main`，是否合并由 @zzwzhangzhiwei123 决定。
+- **分支 / 提交**：起点 `upstream/main@90e16a8`（v0.6.6）→ Fork 分支 `docs/fork-maintenance-handoff`；PR [上游 #1](https://github.com/zzwzhangzhiwei123/feedback-canvas-community/pull/1) 指向上游 `main`，是否合并由 @zzwzhangzhiwei123 决定。
 - **改动文件**：新增 `docs/FORK_MAINTENANCE.md`；更新本页、`README.md`（接手入口表）、`AGENTS.md`（开始时读取 Fork 维护记录）。
 - **用户可见行为 / 格式兼容**：无变化。
 - **测试**：Windows x64、Python **3.13.14**、PySide6 6.11.2、NumPy 2.3.5、cryptography 50.0.2、PyInstaller 6.22.3；`.\.venv\Scripts\python.exe scripts\run_checks.py` 退出码 0，五组 9 + 12 + 20 + 4 + 15 = 60 项全部通过。
